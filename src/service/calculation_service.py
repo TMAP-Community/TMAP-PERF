@@ -1,6 +1,7 @@
 """Module for the CalculationService class"""
 from tkinter import StringVar
 import divide_service as divide_service
+import multiply_service as multiply_service
 
 
 class CalculationService:
@@ -29,10 +30,13 @@ class CalculationService:
         try:
 
             # evaluate the expression/calculation
-            if "/" not in self.expression:
-                total = str(eval(self.expression))
-            else:
+            if "/" in self.expression:
                 total = str(divide_service.divide(self.expression))
+            if "*" in self.expression:
+                total = str(multiply_service.multiply(self.expression))
+            else:
+                total = str(eval(self.expression))
+               
 
             if float(total) > 10:
                 total = total + " <:o)"
