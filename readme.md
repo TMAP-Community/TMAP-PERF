@@ -13,7 +13,7 @@ in the root directory of the project.
 
 # Pull request 
 
-* [Exersize](https://github.com/TMap-Community/TMAP-PERF/blob/master/docs/oefening.md)
+* [Exercise](https://github.com/TMap-Community/TMAP-PERF/blob/master/docs/oefening.md)
 * [Review checklist](https://github.com/TMap-Community/TMAP-PERF/blob/master/docs/pull_request_review_example.md)
 
 
